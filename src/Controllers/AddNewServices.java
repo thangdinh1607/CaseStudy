@@ -61,7 +61,7 @@ public class AddNewServices {
 
         Services room = new Room(id, nameServices, areaUsed, rentalCost, numberOfPeople, typeOfRents, freeServices);
         WriterFile wf = new WriterFile();
-        wf.writerFile(LINK_ROOM, room);
+        wf.writerFile(LINK_ROOM,room);
     }
 
     void addNewServicesMenu() {

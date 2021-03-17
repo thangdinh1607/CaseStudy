@@ -21,6 +21,12 @@ public class Room extends Services {
     }
 
     @Override
+    public String toString() {
+        return super.toString()+","
+                + freeServices;
+    }
+
+    @Override
     public String showInFor() {
         return super.toString()+","
                  + freeServices;

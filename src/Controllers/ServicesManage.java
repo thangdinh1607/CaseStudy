@@ -8,8 +8,8 @@ public class ServicesManage {
     public static final String REGEX_ID = "^(SV)(VL|HO|RO)\\d{4}$";
     public static final String REGEX_NAME_SERVICE = "^[A-Z]\\w+$";
     public static final String REGEX_AREA_USED = "^[3-9]\\d.\\d+";
-    public static final String REGEX_NUMBER_OF_PEOPLE = "^(1|2)[0-9]";
-    public static final String REGEX_ACCOMPANIED_SERVICE = "^(massage |karaoke|food|car)";
+    public static final String REGEX_NUMBER_OF_PEOPLE = "^(1|2)[0-9]$";
+    public static final String REGEX_ACCOMPANIED_SERVICE = "^(massage |karaoke|food|car)$";
     public static final String REGEX_NUMBER_FLOOR = "^[1-40]";
     public static final String REGEX_BIRTHDAY = "^((0)[1-9]|(1|2)[0-9]|(3)(0|1))(/|.)((0)[0-9]|(1)[0-2](/|.)((1)(9)[0-9][0-9]|(2)(0)[0][0-3])$";
     Scanner input = new Scanner(System.in);

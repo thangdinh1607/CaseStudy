@@ -10,13 +10,13 @@ import java.util.Objects;
 
 public class WriterFile {
 
-    void writerFile(String linkFile, Services services) {
+     void writerFile(String linkFile, Object services) {
         FileWriter wf;
         BufferedWriter bw = null;
         try {
             wf = new FileWriter(linkFile,true);
             bw = new BufferedWriter(wf);
-            bw.write(services.showInFor() + "\n");
+            bw.write(services + "\n");
             bw.flush();
         } catch (IOException e) {
             e.printStackTrace();

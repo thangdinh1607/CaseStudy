@@ -50,8 +50,8 @@ public class ShowServices {
     }
 
     void readFileServices(String linkFile) {
-        ReaderFile rd = new ReaderFile();
-        List<String> arrayList = new ArrayList<>(rd.readerFile(linkFile));
+        ReaderFile rf = new ReaderFile();
+        List<String> arrayList = new ArrayList<>(rf.readerFile(linkFile));
         for (String arr : arrayList) {
             System.out.println(arr);
         }
